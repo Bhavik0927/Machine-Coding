@@ -8,7 +8,7 @@ import Quiz from './Components/QuizApp/Quiz';
 
 const App = () => {
 
-  /* const tabData = [
+  const tabData = [
     {
       label:'Profile',
       content: <div>👤 Profile Content</div>
@@ -21,7 +21,7 @@ const App = () => {
       label:'Setting',
       content: <div>♨️ Setting Content</div>
     }
-  ] */ 
+  ] 
 
     
 
@@ -36,11 +36,11 @@ const App = () => {
     // </Router>
 
 
-    // <div style={{padding:'20px'}}>
-    //   <h2>Simple Content tabs</h2>
-    //   <Tabs tabs={tabData} />
-    // </div>
-     <DragDrop />
+    <div style={{padding:'20px'}}>
+      <h2>Simple Content tabs</h2>
+      <Tabs tabs={tabData} />
+    </div>
+    //  <DragDrop />
 
     // Quiz app
     // <Quiz/>
