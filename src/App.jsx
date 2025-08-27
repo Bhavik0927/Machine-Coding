@@ -26,21 +26,21 @@ const App = () => {
     
 
   return (
-    <Router>
-      <Routes>
+    // <Router>
+    //   <Routes>
 
-        <Route path='/' element={<ECart />} />
-        <Route path='/Cart' element={<Cart />} />
+    //     <Route path='/' element={<ECart />} />
+    //     <Route path='/Cart' element={<Cart />} />
 
-      </Routes>
-    </Router>
+    //   </Routes>
+    // </Router>
 
 
     // <div style={{padding:'20px'}}>
     //   <h2>Simple Content tabs</h2>
     //   <Tabs tabs={tabData} />
     // </div>
-    // <DragDrop />
+     <DragDrop />
 
     // Quiz app
     // <Quiz/>
