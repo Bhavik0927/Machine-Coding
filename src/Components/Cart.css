@@ -1,0 +1,47 @@
+.Product-Container{
+    /* border: 2px solid turquoise; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.2rem;
+    padding: 2rem 0rem;
+}
+.Navbar_Container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Navbar_Container h1{
+    cursor: pointer;
+}
+.product-Box{
+    border-radius: 0.8rem;
+    /* border: 1px solid red; */
+    height: auto;
+    width: 20rem;
+    box-shadow: 2px 3px 8px 1px rgb(154, 153, 153);
+    text-align: center;
+    padding: 0.5rem 0rem;
+}
+
+.product-Box img{
+    height: 60%;
+}
+.Options-Box{
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    height: 1rem;
+}
+.product-Box button{
+    margin: 0.2rem;
+    background-color: teal;
+    color: #fff;
+    transition: 0.1s ease;
+}
+
+.product-Box button:hover{
+    font-weight: bold;
+}
